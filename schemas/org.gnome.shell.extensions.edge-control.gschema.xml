@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.edge-control"
+    path="/org/gnome/shell/extensions/edge-control/">
+
+    <key name="osd-background-color" type="s">
+      <default>'rgba(255, 255, 255, 0.9)'</default>
+      <summary>Колір фону OSD</summary>
+    </key>
+
+    <key name="osd-border-radius" type="i">
+      <default>20</default>
+      <summary>Радіус закруглення</summary>
+    </key>
+
+    <key name="edge-width" type="i">
+      <default>5</default>
+      <summary>Ширина зони чутливості (px)</summary>
+    </key>
+
+    <key name="edge-height" type="i">
+      <default>10</default>
+      <summary>Висота зони чутливості (%)</summary>
+    </key>
+
+    <key name="edge-width-percent" type="i">
+      <default>10</default>
+      <summary>Ширина зони чутливості у відсотках (для сумісності)</summary>
+    </key>
+
+    <key name="edge-show-indicator" type="b">
+      <default>true</default>
+      <summary>Показувати індикатор/зону чутливості</summary>
+    </key>
+
+    <key name="osd-padding-top" type="i">
+      <default>20</default>
+      <summary>Внутрішній відступ зверху (padding) OSD</summary>
+    </key>
+
+    <key name="osd-padding-right" type="i">
+      <default>20</default>
+      <summary>Внутрішній відступ справа (padding) OSD</summary>
+    </key>
+
+    <key name="osd-padding-bottom" type="i">
+      <default>20</default>
+      <summary>Внутрішній відступ знизу (padding) OSD</summary>
+    </key>
+
+    <key name="osd-padding-left" type="i">
+      <default>20</default>
+      <summary>Внутрішній відступ зліва (padding) OSD</summary>
+    </key>
+
+    <key name="osd-font-padding-top" type="i">
+      <default>0</default>
+      <summary>Відступ зверху для тексту (шрифту) OSD</summary>
+    </key>
+
+    <key name="osd-font-padding-right" type="i">
+      <default>0</default>
+      <summary>Відступ справа для тексту (шрифту) OSD</summary>
+    </key>
+
+    <key name="osd-font-padding-bottom" type="i">
+      <default>0</default>
+      <summary>Відступ знизу для тексту (шрифту) OSD</summary>
+    </key>
+
+    <key name="osd-font-padding-left" type="i">
+      <default>0</default>
+      <summary>Відступ зліва для тексту (шрифту) OSD</summary>
+    </key>
+
+    <key name="osd-bar-padding-top" type="i">
+      <default>10</default>
+      <summary>Відступ зверху для смужки прогресу OSD</summary>
+    </key>
+
+    <key name="osd-bar-padding-right" type="i">
+      <default>0</default>
+      <summary>Відступ справа для смужки прогресу OSD</summary>
+    </key>
+
+    <key name="osd-bar-padding-bottom" type="i">
+      <default>10</default>
+      <summary>Відступ знизу для смужки прогресу OSD</summary>
+    </key>
+
+    <key name="osd-bar-padding-left" type="i">
+      <default>0</default>
+      <summary>Відступ зліва для смужки прогресу OSD</summary>
+    </key>
+
+    <key name="show-osd-bar" type="b">
+      <default>true</default>
+      <summary>Показувати смужку прогресу в OSD</summary>
+    </key>
+
+    <key name="osd-bar-height" type="i">
+      <default>20</default>
+      <summary>Висота полоси прогресу</summary>
+    </key>
+
+    <key name="osd-bar-radius" type="i">
+      <default>4</default>
+      <summary>Радіус кутів полоси</summary>
+    </key>
+
+    <key name="osd-position" type="s">
+      <default>'center-left'</default>
+      <summary>Позиція OSD на екрані</summary>
+    </key>
+
+    <key name="osd-edge-margin" type="i">
+      <default>50</default>
+      <summary>Відступ OSD від краю екрана</summary>
+    </key>
+
+    <key name="osd-display-time" type="i">
+      <default>1500</default>
+      <summary>Час відображення OSD (мс)</summary>
+    </key>
+
+    <key name="osd-fade-duration" type="i">
+      <default>400</default>
+      <summary>Тривалість анімації зникнення (мс)</summary>
+    </key>
+
+    <key name="osd-hide-on-hover" type="b">
+      <default>true</default>
+      <summary>Ховати OSD при контакті з курсором</summary>
+    </key>
+
+    <key name="osd-height" type="i">
+      <default>64</default>
+      <summary>Висота OSD</summary>
+    </key>
+
+    <key name="osd-max-width" type="i">
+      <default>400</default>
+      <summary>Максимальна ширина OSD</summary>
+    </key>
+
+    <key name="osd-border-show" type="b">
+      <default>false</default>
+      <summary>Показувати рамку навколо OSD</summary>
+    </key>
+
+    <key name="osd-border-width" type="i">
+      <default>1</default>
+      <summary>Товщина рамки</summary>
+    </key>
+
+    <key name="osd-border-color" type="s">
+      <default>'#ffffff'</default>
+    </key>
+
+    <key name="osd-border-opacity" type="d">
+      <default>0.5</default>
+    </key>
+
+
+    <key name="volume-step" type="i">
+      <default>5</default>
+      <summary>Крок зміни гучності у відсотках</summary>
+    </key>
+
+    <key name="brightness-step" type="i">
+      <default>5</default>
+      <summary>Крок зміни яскравості у відсотках</summary>
+    </key>
+
+    <key name="show-percent-symbol" type="b">
+      <default>true</default>
+      <summary>Показувати символ % біля значень</summary>
+    </key>
+
+    <key name="volume-restore-last-value" type="b">
+      <default>false</default>
+      <summary>Відновлювати останнє значення гучності при запуску</summary>
+    </key>
+
+    <key name="volume-restore-day" type="i">
+      <default>50</default>
+      <summary>Рівень гучності при запуску вдень (%)</summary>
+    </key>
+
+    <key name="volume-restore-night" type="i">
+      <default>30</default>
+      <summary>Рівень гучності при запуску вночі (%)</summary>
+    </key>
+
+    <key name="volume-last-value" type="i">
+      <default>50</default>
+      <summary>Службовий ключ: останнє відоме значення гучності</summary>
+    </key>
+
+    <key name="brightness-restore-last-value" type="b">
+      <default>false</default>
+      <summary>Відновлювати останнє значення яскравості при запуску</summary>
+    </key>
+
+    <key name="brightness-restore-day" type="i">
+      <default>70</default>
+      <summary>Рівень яскравості при запуску вдень (%)</summary>
+    </key>
+
+    <key name="brightness-restore-night" type="i">
+      <default>30</default>
+      <summary>Рівень яскравості при запуску вночі (%)</summary>
+    </key>
+
+    <key name="brightness-last-value" type="i">
+      <default>70</default>
+      <summary>Службовий ключ: останнє відоме значення яскравості</summary>
+    </key>
+
+  </schema>
+</schemalist>

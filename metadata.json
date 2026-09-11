@@ -1,0 +1,8 @@
+{
+  "uuid": "edge-control@local",
+  "name": "Edge Control",
+  "description": "Керуйте гучністю та яскравістю скролом по краю екрана.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.edge-control",
+  "version": 1
+}
