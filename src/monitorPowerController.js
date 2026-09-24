@@ -43,10 +43,14 @@ export class MonitorPowerController {
     }
 
     cancelLongPress() {
-        if (this._monitorOffPressId) {
+        const wasPending = this._monitorOffPressId !== null;
+
+        if (wasPending) {
             GLib.Source.remove(this._monitorOffPressId);
             this._monitorOffPressId = null;
         }
+
+        return wasPending;
     }
 
     // Аналог: busctl --user set-property org.gnome.Mutter.DisplayConfig
